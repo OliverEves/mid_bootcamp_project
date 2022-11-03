@@ -1,20 +1,28 @@
 <img width="500" src="https://github.com/OliverEves/mid_bootcamp_project/blob/main/Data/images/cover.png">
 
-## Mid Bootcamp Project
 
+## Mid Bootcamp Project
 
 ### Social Effects on Study
 
+
 <pre>
+To be successful a succesful student, one has to be talented, disciplined and study continuously and thoroughly to
+achieve the best possible grades. Another factor for a successful school career however seems to be the students 
+suroundings: one's family background, social background, health, relationship status, spare time, intrests, alcohol 
+consumption, etc... The questions at hand is: What are the outside benefactors and obstacles for a student's 
+successful performance in school?
+</pre>
 
-To be successful a succesful student, one has to be talented, disciplined and study continuously and thoroughly to achieve the best possible grades. Another factor for a successful school career however seems to be the students suroundings: one's family background, social background, health, relationship status, spare time, intrests, alcohol consumption, etc... The questions at hand is: What are the outside benefactors and obstacles for a student's successful performance in school?
 <pre>
-
-This data approach student achievement in secondary education of two Portuguese schools. The data attributes include student grades, demographic, social and school related features) and it was collected by using school reports and questionnaires. Two datasets are provided regarding the performance in two distinct subjects: Mathematics (mat) and Portuguese language (por).
-
+This data approach student achievement in secondary education of two Portuguese schools. The data attributes include 
+student grades, demographic, social and school related features) and it was collected by using school reports and 
+questionnaires. Two datasets are provided regarding the performance in two distinct subjects: Mathematics (mat) and 
+Portuguese language (por).
+</pre>
 
 ##### Column Description:
-
+<pre>
 school:     student's school (binary: 'GP' - Gabriel Pereira or 'MS' - Mousinho da Silveira)
 
 sex:        student's sex (binary: 'F' - female or 'M' - male)
@@ -27,13 +35,17 @@ famsize:    family size (binary: 'LE3' - less or equal to 3 or 'GT3' - greater t
 
 Pstatus:    parent's cohabitation status (binary: 'T' - living together or 'A' - apart)
 
-Medu:       mother's education (numeric: 0 - none, 1 - primary education (4th grade), 2 â€“ 5th to 9th grade, 3 â€“ secondary education or 4 â€“ higher education)
+Medu:       mother's education (numeric: 0 - none, 1 - primary education (4th grade), 2 â€“ 5th to 9th grade, 3 â€“ 
+            secondary education or 4 â€“ higher education)
 
-Fedu:       father's education (numeric: 0 - none, 1 - primary education (4th grade), 2 â€“ 5th to 9th grade, 3 â€“ secondary education or 4 â€“ higher education)
+Fedu:       father's education (numeric: 0 - none, 1 - primary education (4th grade), 2 â€“ 5th to 9th grade, 3 â€“ 
+            secondary education or 4 â€“ higher education)
 
-Mjob:       mother's job (nominal: 'teacher', 'health' care related, civil 'services' (e.g. administrative or police), 'at_home' or 'other’)
+Mjob:       mother's job (nominal: 'teacher', 'health' care related, civil 'services' (e.g. administrative or police),
+            'at_home' or 'other’)
 
-Fjob:       father's job (nominal: 'teacher', 'health' care related, civil 'services' (e.g. administrative or police), 'at_home' or 'other’)
+Fjob:       father's job (nominal: 'teacher', 'health' care related, civil 'services' (e.g. administrative or police), 
+            'at_home' or 'other’)
 
 reason:     reason to choose this school (nominal: close to 'home', school 'reputation', 'course' preference or 'other’)
 
@@ -74,16 +86,15 @@ Walc:       weekend alcohol consumption (numeric: from 1 - very low to 5 - very 
 health:     current health status (numeric: from 1 - very bad to 5 - very good)
 
 absences:   number of school absences (numeric: from 0 to 93)
-
-_________________________________________________________________________________
+</pre>
 
 ##### Grade:
-
+<pre>
 G1:			first period grade (numeric: from 0 to 20)
 
 G2:			second period grade (numeric: from 0 to 20)
 
 G3:			final grade (numeric: from 0 to 20, output target)
 
-
-#### Data_Source: https://www.kaggle.com/datasets/whenamancodes/alcohol-effects-on-study
+</pre>
+##### Data_Source: https://www.kaggle.com/datasets/whenamancodes/alcohol-effects-on-study
