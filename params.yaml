@@ -1,0 +1,7 @@
+data:
+    maths_raw: '../Data/raw/maths.csv'
+    portuguese_raw: '../Data/raw/portuguese.csv'
+    
+    maths_clean: '../Data/clean/maths.csv'
+    portuguese_clean: '../Data/clean/portuguese.csv'
+    merged_clean: '../Data/clean/merged.csv'
